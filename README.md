@@ -121,8 +121,10 @@ To run the EELS quantification using Dirac GOS, please check the [tutorials](htt
 ## Roadmap
 ### TO-DO list
 - [ ] Provide the EELS data example
-- [ ] Adding relativistic corrections to pyEELSMODEL
-- [ ] Develop the tutorial notebook
+- [ ] Patch known issues in pyEELSMODEL
+- [ ] Add relativistic corrections to pyEELSMODEL
+- [ ] Develop the pyEELSMODEL notebook
+- [ ] Add Dirac GOS support in exspy 
 - [ ] Develop the exspy notebook
 
 See the [open issues](https://github.com/zezhong-zhang/gos_demo/issues) for a full list of proposed features (and known issues).
