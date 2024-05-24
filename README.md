@@ -41,7 +41,7 @@
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
+        <li><a href="#built-with">Supported quantification packages</a></li>
       </ul>
     </li>
     <li>
@@ -76,7 +76,7 @@ This repo is currently under development.
 
 
 
-### Built With
+### Supported quantification packages
 
 To run the notebooks, please install the following packages:
 
@@ -154,7 +154,7 @@ Don't forget to give the project a star! Thanks again!
 <!-- LICENSE -->
 ## License
 
-Distributed under the GPLv3 License. See `LICENSE.txt` for more information.
+Distributed under the GPLv3 License. See `LICENSE` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
