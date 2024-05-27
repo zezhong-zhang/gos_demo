@@ -66,7 +66,7 @@
 ## About The Project
 
 <!-- [![Product Name Screen Shot][product-screenshot]](https://github.com/zezhong-zhang/gos_demo) -->
-Quantitative electron energy-loss spectroscopy (EELS) requires model-based fitting of observed spectra with theoretical differential cross-sections calculated from a generalized oscillator strength (GOS) database with experimental parameters. [Here](https://zenodo.org/records/11199911), we provide a GOS tabulation by including the full relativistic effects using the Dirac equation within the local density approximation, which is particularly important for core-shell electrons of heavy elements with strong spin-orbit coupling. This has been done for all elements in the periodic table (up to Z = 118) for all possible excitation edges using modern computing capabilities and parallelization algorithms. We make these tabulated GOS available under an [open-source license](https://creativecommons.org/licenses/by/4.0/legalcode) to the benefit of both academic users as well as allowing integration into commercial solutions.
+Quantitative electron energy-loss spectroscopy (EELS) requires model-based fitting of observed spectra with theoretical differential cross-sections calculated from a generalized oscillator strength (GOS) database with experimental parameters. [Here](https://zenodo.org/records/11199911), we provide a GOS tabulation by including the full relativistic effects using the Dirac equation within the local density approximation, which is particularly important for core-shell electrons of heavy elements with strong spin-orbit coupling. This has been done for all elements in the periodic table (up to Z = 118) for all possible excitation edges using modern computing capabilities and parallelization algorithms. We make these tabulated GOS available under a [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode)[ license](https://creativecommons.org/licenses/by/4.0/legalcode) to the benefit of both academic users as well as allowing integration into commercial solutions.
 
 This tutorial will provide a step-by-step guide on how to use the Dirac-based GOS database for EELS quantification.
 
@@ -113,7 +113,7 @@ To run the EELS quantification using Dirac GOS, please check the [tutorials](htt
 
 - Step 2, we need to integrate the DDSCS within the EELS collection aperture to obtain the differential cross-sections for parallel illumination. If convergent beam illumination is used in STEM-EELS, we have to correct it with a geometric cross-correlation function. The momentum space integration for both parallel and convergent beam illumination is implemented in pyEELSModel. 
 
-- Step 3, the computed differential cross-sections for all edges are fitted together to the experimental spectrum for quantification. During the model-based fitting process, the core-loss spectrum can be convoluted with the low-loss spectrum to consider the source energy dispersion and plural plasmon scattering. The fitting procedure can be performed using the existing packages such as EELSModel, HyperSpy, or Gatan Digital Micrograph, which now all support the Dirac-based GOS. In this tutorial, we will first demostrate with pyEELSModel.
+- Step 3, the computed differential cross-sections for all edges are fitted together to the experimental spectrum for quantification. During the model-based fitting process, the core-loss spectrum can be convoluted with the low-loss spectrum to consider the source energy dispersion and plural plasmon scattering. The fitting procedure can be performed using the existing packages such as EELSModel, HyperSpy, or Gatan Digital Micrograph, which will support the Dirac-based GOS. In this tutorial, we will first demonstrate with pyEELSModel.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -138,7 +138,7 @@ See the [open issues](https://github.com/zezhong-zhang/gos_demo/issues) for a fu
 <!-- CONTRIBUTING -->
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Contributions are what makes the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
 Don't forget to give the project a star! Thanks again!
