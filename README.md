@@ -80,7 +80,9 @@ This repo is currently under development.
 
 To run the notebooks, please install the following packages:
 
-- [pyEELSMODEL](https://github.com/joverbee/pyEELSMODEL)
+- [x] [pyEELSMODEL](https://github.com/joverbee/pyEELSMODEL)
+- [ ] [exspy](https://github.com/hyperspy/exspy)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -105,7 +107,7 @@ pip install -e .
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-To run the EELS quantification using Dirac GOS, please check the [tutorials](https://github.com/zezhong-zhang/gos_demo/tree/main/tutorial).
+To run the EELS quantification using Dirac GOS, please check the [tutorials](https://github.com/zezhong-zhang/gos_demo/tree/main/notebooks).
 
 - Step 1, we need to compute the DDSCS from the GOS database for the non-relativistic scattering but with atomic orbitals obtained from the Dirac equation. Then we need to account for the relativistic nature of the fast incoming electron. 
 
